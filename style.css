@@ -6,6 +6,11 @@
 a{
     text-decoration: none;
     color: rgb(180, 236, 241);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Shantell Sans", cursive;
+    display: block;
+    transition: 0.3s;
 }
 
 #blackP{
@@ -23,6 +28,51 @@ header{
 }
 
 .headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerInput {
+    visibility: hidden;
+}
+
+#logo {
+    background-image: url('Logo.svg');
+    width: 100px;
+    height: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#profileButton {
+    background-image: url('profile.svg');
     
+}
+
+#searchButton {
+    background-image: url('searchButton.svg');   
+}
+
+button:hover,a:hover {
+    opacity: 0.5;
+    
+}
+
+button {
+    transition: 0.3s;
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
