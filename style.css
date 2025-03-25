@@ -119,6 +119,12 @@ button {
 .set {
     width: 27%;
     height: 400px;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Coiny", system-ui;
+    -webkit-text-stroke: 2px rgb(193, 224, 239);
+    color: #7fa4e1; 
     
 }
 
@@ -142,5 +148,63 @@ button {
     background-image: url('Collection banner-1.png');
     background-size: cover  ;
 }
+
+.whatToWear {
+    width: 27%;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Coiny", system-ui;
+    -webkit-text-stroke: 2px rgb(193, 224, 239);
+    color: #7fa4e1; 
+}
+
+#whatToWearNow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#beanie {
+    background-image: url('beanie.png');
+    background-size: cover;
+}
+
+#cardigan {
+    background-image: url('cardigan.png');
+    background-size: cover;
+}
+
+#coat {
+    background-image: url('coat.png');
+    background-size: cover;
+}
+
+#toteBag {
+    background-image: url('toteBag.png');
+    background-size: cover;
+}
+
+#phoneBag {
+    background-image: url('phoneBag.png');
+    background-size: cover;
+}
+
+#plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    
+}
+
+#whatToWear button {
+    background-color: #50444400;
+    
+}
+
 
 
